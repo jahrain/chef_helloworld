@@ -7,9 +7,9 @@
 # All rights reserved - Do Not Redistribute
 #
 
-package "nginx"
+#package "nginx"
 
-template "/tmp/helloworld.txt" do
+template "/helloworld.txt" do
     source "helloworld.txt.erb"
     action :create
 end
