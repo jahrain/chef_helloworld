@@ -1,0 +1,8 @@
+{
+    "helloworld": {
+        "username":"localhost"
+    },
+    "run_list":[
+        "recipe[helloworld]"
+    ]
+}
